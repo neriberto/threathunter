@@ -1,0 +1,11 @@
+version: '3.3'
+
+services:
+  yara:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: neriberto/threathunter
+    volumes:
+      - ${SAMPLES_DIR}:/srv/data
+      - ${RULES_DIR}:/srv/rules

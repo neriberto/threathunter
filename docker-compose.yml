@@ -1,0 +1,6 @@
+version: '3.3'
+
+services:
+  yara:
+    image: neriberto/threathunter
+    command: /bin/sh -c "while true; do yara -v; sleep 10; done"

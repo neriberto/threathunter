@@ -1,0 +1,6 @@
+[submodule "yara"]
+	path = yara
+	url = https://github.com/VirusTotal/yara.git
+[submodule "rules"]
+	path = rules
+	url = https://github.com/Yara-Rules/rules
